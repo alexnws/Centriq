@@ -1,0 +1,25 @@
+div {
+  text-align: center;
+}
+button {
+  color: white;
+  font-weight: extra bold;
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  font-size: 40px;
+  background-color: transparent;
+  &:active {
+    transform: translate(2px, 2px);
+    box-shadow: #008d7f 0 0 5px;
+    -webkit-transform: translate(2px, 2px);
+    -moz-transform: translate(2px, 2px);
+    -ms-transform: translate(2px, 2px);
+    -o-transform: translate(2px, 2px);
+    color: #008d7f;
+  }
+}

@@ -1,0 +1,52 @@
+.square {
+  position: absolute;
+  width: 386px;
+  height: 224px;
+  left: 527px;
+  top: 350px;
+
+  background: #424242;
+  border-radius: 20px;
+}
+
+.type a {
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 18pt;
+  margin-top: 60px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+.type1 a {
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 18pt;
+  margin-top: 60px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.save {
+  color: #008d7f;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18pt;
+  margin-top: 30px;
+
+  cursor: pointer;
+}
+.cancel {
+  color: #ff0000;
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 18pt;
+  margin-top: 30px;
+
+  cursor: pointer;
+}
